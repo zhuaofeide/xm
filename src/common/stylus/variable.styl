@@ -1,0 +1,64 @@
+// 颜色定义规范
+$font ="微软雅黑",'宋体',Arial,Verdana
+$color-background = #fff
+$color-background2 = #eee
+$color-background-d = rgba(0, 0, 0, 0.3)
+$color-highlight-background = #333
+$color-dialog-background = #666
+$color-theme = #2d8cf0
+$color-theme2 = #6badf3
+$background-color = #1E9FFF
+$color-solid=#ded7d7
+$color-solid2=#777
+$color-solid3=#f2f2f2
+$color-solid4=#e1e1e1
+$footer-color=#f0f0f0
+$footer-color-text=#999
+$color-theme-d = rgba(255, 205, 49, 0.5)
+$color-sub-theme = #d93f30
+$color-text = #000
+$color-text2 = #96b0ed
+$color-text3 = #fff
+$color-text4= #f60
+$color-text5 = #999
+$color-text-d = rgba(255, 255, 255, 0.3)
+$color-text-l = rgba(255, 255, 255, 0.5)
+$color-text-ll = rgba(255, 255, 255, 0.8)
+
+//字体定义规范
+$font-size-small-s = 10px
+$font-size-small = 12px
+$font-size-medium = 14px
+$font-size-medium-x = 16px
+$font-size-large = 18px
+$font-size-large-x = 22px
+
+border-1px($color)
+  position:relative
+  &:after
+    display:block
+    position:absolute
+    left:0
+    bottom:0
+    width:100%
+    border-top:1px solid $color
+    content:' '
+//定义边框样式
+.border-1px
+  border-1px(rgb(204,204,204))
+border-bt-1px($color)
+  position:relative
+  &:after
+    display:block
+    position:absolute
+    left:0
+    bottom:0
+    width:100%
+    border-top:1px solid $color
+    content:' '
+//定义边框样式
+.border-bt-1px
+  border-bt-1px(rgb(241,241,241))
+
+
+
